@@ -1,11 +1,6 @@
 @use "config" as c;
 @use "mixins" as m;
 
-.container {
-  width: c.$container-lg;
-  margin: 0 auto;
-}
-
 img {
   display: block;
   width: 100%;
@@ -17,6 +12,14 @@ h3,
 h4,
 h5 {
   line-height: 1.1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 section {
@@ -31,6 +34,19 @@ section {
     width: 42%;
     margin: 0.6rem auto 2.5rem;
   }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  color: c.$dark-color;
+  background: rgba(c.$primary-color-variant, 0.1);
+  user-select: none;
+}
+
+.container {
+  width: c.$container-lg;
+  margin: 0 auto;
 }
 
 .btn {

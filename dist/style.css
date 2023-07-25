@@ -311,24 +311,13 @@ header .header__content p {
 }
 
 @media (max-width: 1024px) {
-  #services .container {
-    gap: 1rem;
+  #specialists .container {
     grid-template-columns: 1fr 1fr;
-  }
-  #services .container article {
-    padding: 1.2rem;
-    gap: 0.8rem;
-  }
-  #services .container article:hover {
-    margin: 0;
   }
 }
 @media (max-width: 600px) {
-  #services .container {
+  #specialists .container {
     grid-template-columns: 1fr;
-  }
-  #services .container article div h4 {
-    margin-bottom: 0.8rem;
   }
 }
 nav {
